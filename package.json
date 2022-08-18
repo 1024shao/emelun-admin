@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "lint": "eslint --fix --ext .ts,.vue src",
+    "test": "vitest run",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
     "prepare": "npx husky install"
   },
@@ -36,7 +38,7 @@
     "fs-extra": "^10.1.0",
     "happy-dom": "^6.0.4",
     "prettier": "^2.7.1",
-    "terser": "^5.14.2",
+    "terser": "5.4.0",
     "unocss": "^0.45.7",
     "vite": "^3.0.7",
     "vitepress": "1.0.0-alpha.5",
