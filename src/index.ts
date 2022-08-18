@@ -8,9 +8,9 @@
 // createApp(Button)
 // createApp(FCButton)
 import { createApp } from "vue/dist/vue.esm-browser";
-import EmulunUI from './entry'
+import EmulunUI from "./entry";
 createApp({
-       template:`
+  template: `
        <div style="margin-bottom:20px;">
        <Button color="blue">主要按钮</Button>
        <Button color="green">绿色按钮</Button>
@@ -45,7 +45,7 @@ createApp({
        <Button color="yellow" round plain icon="message"></Button>
        <Button color="red" round plain icon="delete"></Button>
    </div>
-       `
-      })
-   .use(EmulunUI)
-   .mount("#app");
+       `,
+})
+  .use(EmulunUI)
+  .mount("#app");
