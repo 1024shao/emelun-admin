@@ -1,0 +1,11 @@
+<h1>Demo</h1>
+<div id="app"></div>
+<script type="module">
+  import {createApp} from 'vue/dist/vue.esm-bundler.js'
+  import EmulunUI, { Button } from "../../dist/emulun-ui.esm.js";
+
+    createApp({
+        template: `
+      <Button/>
+    `}).use(EmulunUI).mount('#app')
+</script>
