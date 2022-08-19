@@ -1,5 +1,5 @@
 import { App } from "vue";
-import Button from "./button";
+import Button from "./Button";
 
 export { Button };
 export default {
