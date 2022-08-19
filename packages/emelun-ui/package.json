@@ -1,0 +1,53 @@
+{
+  "name": "emelun-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "lint": "eslint --fix --ext .ts,.vue src",
+    "test": "vitest run",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\""
+  },
+  "keywords": [
+    "components",
+    "ui"
+  ],
+  "author": "shaoxiaobai",
+  "license": "ISC",
+  "devDependencies": {
+    "@iconify-json/ic": "^1.1.9",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.7.5",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/test-utils": "^2.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.3.0",
+    "esno": "^0.16.3",
+    "fs-extra": "^10.1.0",
+    "happy-dom": "^6.0.4",
+    "prettier": "^2.7.1",
+    "terser": "5.4.0",
+    "unocss": "^0.45.7",
+    "vite": "^3.0.7",
+    "vitepress": "1.0.0-alpha.5",
+    "vitepress-theme-demoblock": "^1.4.2",
+    "vitest": "^0.22.0"
+  },
+  "dependencies": {
+    "@commitlint/cli": "17.0.2",
+    "@commitlint/config-conventional": "17.0.2",
+    "typescript": "^4.7.4",
+    "vue": "^3.2.37"
+  }
+}

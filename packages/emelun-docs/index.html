@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1>🔨 EmelunUI Demo</h1>
+  <div id="app"></div>
+  <script type="module">
+    import style from "emelun-ui/dist/assets/index.css"
+      import { createApp } from "vue/dist/vue.esm-bundler.js";
+        import EmelunUI, { Button } from "emelun-ui/dist/emelun-ui.mjs";
+
+        createApp({
+            template: `
+        <div style="margin-bottom:20px;">
+            <Button color="blue">主要按钮</Button>
+            <Button color="green">绿色按钮</Button>
+            <Button color="gray">灰色按钮</Button>
+            <Button color="yellow">黄色按钮</Button>
+            <Button color="red">红色按钮</Button>
+        </div>
+        <div style="margin-bottom:20px;"
+        >
+            <Button color="blue" plain>朴素按钮</Button>
+            <Button color="green" plain>绿色按钮</Button>
+            <Button color="gray" plain>灰色按钮</Button>
+            <Button color="yellow" plain>黄色按钮</Button>
+            <Button color="red" plain>红色按钮</Button>
+        </div>
+        <div style="margin-bottom:20px;">
+            <Button size="small" plain>小按钮</Button>
+            <Button size="medium" plain>中按钮</Button>
+            <Button size="large" plain>大按钮</Button>
+        </div>
+        <div style="margin-bottom:20px;">
+            <Button color="blue" round plain icon="search">搜索按钮</Button>
+            <Button color="green" round plain icon="edit">编辑按钮</Button>
+            <Button color="gray" round plain icon="check">成功按钮</Button>
+            <Button color="yellow" round plain icon="message">提示按钮</Button>
+            <Button color="red" round plain icon="delete">删除按钮</Button>
+        </div>
+        <div style="margin-bottom:20px;">
+            <Button color="blue" round plain icon="search"></Button>
+            <Button color="green" round plain icon="edit"></Button>
+            <Button color="gray" round plain icon="check"></Button>
+            <Button color="yellow" round plain icon="message"></Button>
+            <Button color="red" round plain icon="delete"></Button>
+        </div>
+    `}).use(EmelunUI).mount('#app')
+
+    </script>
+</body>
+
+</html>
