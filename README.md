@@ -7,7 +7,7 @@
 <h1 align="center">Emelun-Admin</h1>
 
 <p align="center">
-前端工程化教学模型
+    ['emelun](艾麦伦) أمل 希望
 </p>
 
 <p align="center">
