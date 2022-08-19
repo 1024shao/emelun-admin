@@ -22,13 +22,14 @@
 
 前端工程化演示项目。
 
-- Monorepo风格 (pnpm workspace)
+- Monorepo 风格 (pnpm workspace)
 - 独立组件库
 - 独立脚手架工具
-- SSG风格文档自动化工具
-- seed项目模板
+- SSG 风格文档自动化工具
+- seed 项目模板
 
 # 目录说明
+
 ```bash
 │   packages
 │   ├── seed # admin空模板
@@ -38,3 +39,5 @@
 │   ├── admin # admin全量
 │   ├── cli # 脚手架工具
 ```
+
+## 马上到来
