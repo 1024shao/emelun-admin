@@ -4,7 +4,8 @@
   "description": "<br>",
   "main": "commitlint.config.js",
   "scripts": {
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "npx husky install"
   },
   "repository": {
     "type": "git",

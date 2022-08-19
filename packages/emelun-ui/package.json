@@ -10,8 +10,7 @@
     "docs:serve": "vitepress serve docs",
     "lint": "eslint --fix --ext .ts,.vue src",
     "test": "vitest run",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
-    "prepare": "npx husky install"
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\""
   },
   "keywords": [
     "components",
