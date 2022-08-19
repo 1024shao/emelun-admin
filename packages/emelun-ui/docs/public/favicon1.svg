@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="283" height="283" viewBox="0 0 100 100">
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css?family=Croissant+One');
+    </style>
+  </defs>
+
+<rect x="1"
+  y="1"
+  rx="50"
+  ry="50"
+  width="98"
+  height="98"
+  fill="#008c8c"></rect>
+
+<text x="50"
+  y="50"
+  dx="1.5"
+  dy="-2"
+  fill="#ffffff"
+  font-size="21"
+  font-family="Croissant One"
+  font-weight=""
+  text-anchor="middle"
+  dominant-baseline="central">Emelun</text>
+
+<rect x="1"
+  y="1"
+  rx="50"
+  ry="50"
+  width="98"
+  height="98"
+  fill-opacity="0"
+  stroke="#feeeec"
+  stroke-width="2"></rect>
+</svg>

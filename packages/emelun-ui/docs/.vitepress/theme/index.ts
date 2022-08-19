@@ -1,5 +1,6 @@
-import Theme from 'vitepress/dist/client/theme-default'
-import SmartyUI from '../../../src/entry'
+import DefaultTheme from "vitepress/theme";
+import EmelunUI from '../../../src/entry'
+import './style/var.css'
 
 // 主题样式
 import 'vitepress-theme-demoblock/theme/styles/index.css'
@@ -9,9 +10,9 @@ import DemoBlock from 'vitepress-theme-demoblock/components/DemoBlock.vue'
 
 
 export default {
- ...Theme,
+ ...DefaultTheme,
  enhanceApp({ app }) {
-    app.use(SmartyUI)
+    app.use(EmelunUI)
     app.component('Demo', Demo)
     app.component('DemoBlock', DemoBlock)
   },
