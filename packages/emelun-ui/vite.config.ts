@@ -10,9 +10,9 @@ const rollupOptions = {
     globals: {
       vue: "Vue",
     },
-    assetFileNames: (assetInfo)=>{
-      return `assets/index.[extname]`
-    }
+    assetFileNames: (assetInfo) => {
+      return `assets/index.[extname]`;
+    },
   },
 };
 
