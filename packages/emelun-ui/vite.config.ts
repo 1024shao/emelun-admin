@@ -1,50 +1,37 @@
-/// <reference types="vite/client" />
 /// <reference types="vitest" />
-
-import { defineConfig } from "vite";
-import type { Plugin, UserConfig } from "vite";
+import { defineConfig, UserConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
+import iconify from "@iconify-json/ic";
 import Unocss from "./config/unocss";
-
-// https://vitejs.dev/config/
-
-export const config = {
-  plugins: [
-    vue() as Plugin,
-    // 添加JSX插件
-    vueJsx() as Plugin,
-    // 添加UnoCSS插件
-    Unocss() as Plugin[],
-  ],
-  // 添加库模式配置
-  build: {
-    rollupOptions: {
-      external: ["vue", "vue-router"],
-      output: {
-        assetFileNames: "[name].[ext]",
-        exports: "named",
-        globals: {
-          vue: "Vue",
-        },
-      },
+const rollupOptions = {
+  external: ["vue", "vue-router"],
+  output: {
+    assetFileNames: "[name].[ext]",
+    exports: "named",
+    globals: {
+      vue: "Vue",
     },
-    cssCodeSplit: true,
+  },
+};
+export const config = {
+  plugins: [vue(), vueJsx({}), Unocss()],
+  build: {
+    rollupOptions,
     minify: "terser", // boolean | 'terser' | 'esbuild'
     sourcemap: true, // 输出单独 source文件
     reportCompressedSize: true, // 生成压缩大小报告
+    cssCodeSplit: true,
     lib: {
       entry: "./src/entry.ts",
-      name: "EmelunUI",
+      name: "EmulunUI",
       fileName: "emelun-ui",
       // 导出模块格式
       formats: ["es", "umd", "iife"],
     },
     outDir: "./dist",
   },
-
   test: {
-    // enable jest-like global test APIs
     globals: true,
     // simulate DOM with happy-dom
     // (requires installing happy-dom as a peer dependency)
@@ -55,4 +42,5 @@ export const config = {
     },
   },
 } as UserConfig;
+
 export default defineConfig(config as UserConfig);

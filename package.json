@@ -5,7 +5,8 @@
   "main": "commitlint.config.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "prepare": "npx husky install"
+    "prepare": "npx husky install",
+    "build:docs": "pnpm --filter emelun-ui docs:build"
   },
   "repository": {
     "type": "git",
