@@ -17,6 +17,6 @@ jobs:
         with:
           version: 7.2.1
       - name: Install modules
-        run: cd package/emelun-ui && pnpm install
+        run: cd packages/emelun-ui && pnpm install
       - name: Run Test
-        run: cd package/emelun-ui && pnpm run test
+        run: cd packages/emelun-ui && pnpm run test
