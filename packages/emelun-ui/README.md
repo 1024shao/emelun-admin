@@ -1,7 +1,6 @@
 <br>
+
 <p align="center">
-<!-- <img src="https://github.com/1024shao/emelun-admin/blob/master/assets/favicon.svg" style="width:200px;" />
- -->
 <img src="https://github.com/1024shao/emelun-admin/blob/master/assets/favicon.png" style="width:200px;" />
 </p>
 
@@ -12,8 +11,8 @@
 </p>
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/emelun-ui"><img src="https://img.shields.io/npm/v/emelun-ui?color=008c08c&amp;label=" alt="NPM version"></a>
-    <a href="https://github.com/1024shao/emelun/actions/workflows/ci.yml"><img src="https://github.com/1024shao/emelun-admin/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI" style="max-width: 100%;"></a>
+    <a href="https://www.npmjs.com/package/emelun-ui"><img src="https://img.shields.io/npm/v/emelun-ui?color=008c8c&amp;label=" alt="NPM version"></a>
+    <a href="https://github.com/1024shao/emelun-admin/actions/workflows/ci.yml"><img src="https://github.com/1024shao/emelun-admin/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI" style="max-width: 100%;"></a>
 </p>
 
 <br>
@@ -40,5 +39,3 @@
 │   ├── admin # admin全量
 │   ├── cli # 脚手架工具
 ```
-
-## 马上到来

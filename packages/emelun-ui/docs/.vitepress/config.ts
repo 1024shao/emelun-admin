@@ -46,14 +46,13 @@
 
 
 import { defineConfig } from "vitepress";
-
+// /Users/bytedance/code/emelun/packages/emelun-ui/docs/.vitepress/introduction
 const sidebar = [
   {
     text: "Introduction",
+    description: "一站式Mini组件库",
     items: [
-      { text: "什么是 Emelun-UI?", link: "/aa" },
-      { text: "快速上手", link: "/" },
-      { text: "部署", link: "/" },
+      { text: "Emelun-UI是什么 ?", link: "/guide/intro/" },
     ],
   },
   {
@@ -89,6 +88,10 @@ export default defineConfig({
   description: "组件库搭建的教学模型",
   themeConfig: {
     sidebar,
+    nav: [
+            { text: "找到邵小白", link: "https://juejin.cn/user/210745713517950/posts" },
+          ],
+    socialLinks: [{ icon: "github", link: "https://github.com/1024shao/emelun-admin" },]
   },
   markdown: {
     config: (md) => {

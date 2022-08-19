@@ -1,7 +1,24 @@
-import { defineComponent, PropType, toRefs } from "vue";
+import { defineComponent, PropType } from "vue";
 import "uno.css";
-export type IColor = 'black' | 'gray' | 'red' | 'yellow' | 'green' | 'blue' | 'indigo' | 'purple' | 'pink'
-export type Icon = "search" | "edit" | "check" | "message" | "star-off" | "delete" | "add" | "share"
+export type IColor =
+  | "black"
+  | "gray"
+  | "red"
+  | "yellow"
+  | "green"
+  | "blue"
+  | "indigo"
+  | "purple"
+  | "pink";
+export type Icon =
+  | "search"
+  | "edit"
+  | "check"
+  | "message"
+  | "star-off"
+  | "delete"
+  | "add"
+  | "share";
 export type ISize = "small" | "medium" | "large";
 
 export const props = {
@@ -53,8 +70,9 @@ export default defineComponent({
         text: "lg",
       },
     };
-    return () => <button
-      class={`
+    return () => (
+      <button
+        class={`
         py-${size[props.size].y}
         px-${size[props.size].x}
         ${props.round ? "rounded-full" : "rounded-lg"}
@@ -68,9 +86,15 @@ export default defineComponent({
         hover:text-white
         transition duration-300 ease-in-out transform hover:scale-105
         mx-1
-    `}>
-      {props.icon !== "" ? <i class={`i-ic-baseline-${props.icon} p-3`}></i> : ""}
-      {slots.default ? slots.default() : ''}
-    </button>
-  }
-})
+    `}
+      >
+        {props.icon !== "" ? (
+          <i class={`i-ic-baseline-${props.icon} p-3`}></i>
+        ) : (
+          ""
+        )}
+        {slots.default ? slots.default() : ""}
+      </button>
+    );
+  },
+});
