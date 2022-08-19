@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/emelun-admin-ui"><img src="https://img.shields.io/npm/v/emelun-admin-ui?color=c95f8b&amp;label=" alt="NPM version"></a>
-    <a href="https://github.com/emelun-team/emelun-admin/actions/workflows/main.yml"><img src="https://github.com/emelun-team/emelun-admin/actions/workflows/main.yml/badge.svg?branch=main" alt="CI" style="max-width: 100%;"></a>
+    <a href="https://www.npmjs.com/package/emelun-ui"><img src="https://img.shields.io/npm/v/emelun-ui?color=008c8c&amp;label=" alt="NPM version"></a>
+    <a href="https://github.com/1024shao/emelun-admin/actions/workflows/ci.yml"><img src="https://github.com/1024shao/emelun-admin/actions/workflows/ci.yml/badge.svg?branch=master" alt="CI" style="max-width: 100%;"></a>
 </p>
 
 <br>
