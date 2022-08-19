@@ -20,7 +20,7 @@ jobs:
       - name: Install modules
         run: pnpm install
       - name: Build
-        run: cd packages/emelun-ui && npm run build && npm config set registry  https://registry.npmjs.org/
+        run: cd packages/emelun-ui && npm run build
       - name: 'Publish to the npm registry'
         uses: primer/publish@3.0.0
         env:
