@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-<img src="https://github.com/1024shao/emelun-admin/assets/favicon.jpeg" style="width:200px;" />
+<img src="https://github.com/1024shao/emelun-admin/blob/master/assets/favicon.svg" style="width:200px;" />
 </p>
 
 <h1 align="center">Emelun-Admin</h1>
