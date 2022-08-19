@@ -24,7 +24,7 @@ export const config = {
     cssCodeSplit: true,
     lib: {
       entry: "./src/entry.ts",
-      name: "EmulunUI",
+      name: "EmelunUI",
       fileName: "emelun-ui",
       // 导出模块格式
       formats: ["es", "umd", "iife"],

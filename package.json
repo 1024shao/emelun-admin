@@ -8,16 +8,16 @@
     "prepare": "npx husky install",
     "build:docs": "pnpm --filter emelun-ui docs:build"
   },
+  "homepage": "https://emelun-admin-e79mx9w60-1024shao.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1024shao/emulun-admin.git"
+    "url": "git+https://github.com/1024shao/emelun-admin.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/1024shao/emulun-admin/issues"
+    "url": "https://github.com/1024shao/emelun-admin/issues"
   },
-  "homepage": "https://github.com/1024shao/emulun-admin#readme",
   "dependencies": {
     "vite": "^3.0.7"
   }

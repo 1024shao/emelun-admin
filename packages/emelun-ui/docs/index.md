@@ -1,7 +1,7 @@
-# 🔨 Smarty-UI 是什么?
+# 🔨 Emelun-UI 是什么?
 
 - 测试一下
-  一个 Mini 版的组件库，基于 Vite 栈。为需要学习前端工程化的同学搭建的组件库搭建教学模型。
+  一个 Mini 版的组件库，基于 Vite 栈。
 
 ## Features
 
@@ -17,22 +17,22 @@
 ## Install
 
 ```bash
-npm i smarty-admin-ui
+npm i emelun-ui
 ```
 
 ## Quick Start
 
 ```js
 import Vue from 'vue'
-import SmartyUI from 'element-ui'
+import EmelunUI from 'emelun-ui'
 
 const App = {
   template: `
-                <MyButton/>
+                <Button/>
             `,
 }
 
-createApp(App).use(SmartyUI).mount('#app')
+createApp(App).use(EmelunUI).mount('#app')
 ```
 
 ## Browser Support

@@ -8,7 +8,7 @@
 // createApp(Button)
 // createApp(FCButton)
 import { createApp } from "vue/dist/vue.esm-browser";
-import EmulunUI from "./entry";
+import EmelunUI from "./entry";
 createApp({
   template: `
        <div style="margin-bottom:20px;">
@@ -47,5 +47,5 @@ createApp({
    </div>
        `,
 })
-  .use(EmulunUI)
+  .use(EmelunUI)
   .mount("#app");
