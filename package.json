@@ -6,7 +6,8 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "npx husky install",
-    "build:docs": "pnpm --filter emelun-ui docs:build"
+    "build:docs": "pnpm --filter emelun-ui docs:build",
+    "docs:dev": "pnpm --filter emelun-ui docs:dev"
   },
   "homepage": "https://emelun-admin-e79mx9w60-1024shao.vercel.app/",
   "repository": {

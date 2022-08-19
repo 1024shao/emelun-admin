@@ -6,7 +6,8 @@ hero:
   text: 一个基于 Vite 的最小 MVP 组件库
   tagline: 好玩有趣的
   image:
-    src: /public/favicon.png
+    src: /favicon.png
+    # src: ![An image](/public/favicon.png)
     alt: EmelunUI
   actions:
     - theme: brand

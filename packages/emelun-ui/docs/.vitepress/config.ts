@@ -86,10 +86,16 @@ export default defineConfig({
   title: "Emelun-UI",
   description: "组件库搭建的教学模型",
   themeConfig: {
-    logo:'../public/favicon.png',
+    logo:'/favicon.png',
     sidebar,
+    //     nav: [
+//       { text: "Guide", link: "/" },
+//       { text: "GuideTest", link: "//" },
+//       { text: "gitee", link: "https://gitee.com/geeksdidi" },
+//     ],
     nav: [
-            { text: "找到邵小白", link: "https://juejin.cn/user/210745713517950/posts" },
+      { text: "Guide", link: "/guide/intro/" },
+      { text: "找到邵小白", link: "https://juejin.cn/user/210745713517950/posts" },
           ],
     socialLinks: [{ icon: "github", link: "https://github.com/1024shao/emelun-admin" },]
   },
