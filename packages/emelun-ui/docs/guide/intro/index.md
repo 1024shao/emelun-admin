@@ -1,7 +1,7 @@
 <br>
 
 <p align="center">
-<img src="../../public/favicon.svg" style="width:200px;" />
+<img src="../../public/favicon.png" style="width:130px;" />
 </p>
 
 <h1 align="center">Emelun-Admin</h1>

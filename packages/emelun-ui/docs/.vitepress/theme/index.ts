@@ -1,5 +1,6 @@
 import DefaultTheme from "vitepress/theme";
 import EmelunUI from '../../../src/entry'
+import './style/var.css'
 
 // 主题样式
 import 'vitepress-theme-demoblock/theme/styles/index.css'

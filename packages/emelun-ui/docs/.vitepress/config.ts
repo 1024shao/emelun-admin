@@ -46,7 +46,6 @@
 
 
 import { defineConfig } from "vitepress";
-// /Users/bytedance/code/emelun/packages/emelun-ui/docs/.vitepress/introduction
 const sidebar = [
   {
     text: "Introduction",
@@ -87,6 +86,7 @@ export default defineConfig({
   title: "Emelun-UI",
   description: "组件库搭建的教学模型",
   themeConfig: {
+    logo:'../public/favicon.png',
     sidebar,
     nav: [
             { text: "找到邵小白", link: "https://juejin.cn/user/210745713517950/posts" },
